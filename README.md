@@ -1,6 +1,6 @@
 <div align="center">
 
-![Raidens](https://sesiraidens.github.io/portifolio/assets/logo_color-aNRVU26Y.png)
+<img src="https://sesiraidens.github.io/portifolio/assets/logo_color-aNRVU26Y.png" width="80">
 
 # Portfolio RAIDENS
 
