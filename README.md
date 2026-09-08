@@ -1,6 +1,14 @@
+<div align="center">
+
+![Raidens](https://sesiraidens.github.io/portifolio/assets/logo_color-aNRVU26Y.png)
+
 # Portfolio RAIDENS
 
-Site institucional da equipe RAIDENS - SESI 192 Aluminio/SP.
+**Site institucional da equipe RAIDENS - SESI 192 Aluminio/SP**
+
+</div>
+
+---
 
 ## Sobre
 
@@ -34,7 +42,13 @@ portifolio/
 
 O site e publicado automaticamente via GitHub Pages a partir da branch gh-pages.
 
-## Contato
+---
 
-- Email: sesiraidens@gmail.com
-- Linktree: [linktr.ee/sesiraidens](https://linktr.ee/sesiraidens)
+<div align="center">
+
+**Equipe RAIDENS - SESI Aluminio 192**
+
+[![Email](https://img.shields.io/badge/Email-sesiraidens@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sesiraidens@gmail.com)
+[![Linktree](https://img.shields.io/badge/Linktree-sesiraidens-39E06B?style=flat&logo=linktree&logoColor=white)](https://linktr.ee/sesiraidens)
+
+</div>
