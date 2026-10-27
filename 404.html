@@ -1,40 +1,69 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Raiden's Portfolio</title>
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script takes the current url and converts the path and query
-      // string into just a query string, and then redirects the browser
-      // to the new url with only a query string and hash fragment,
-      // e.g. https://www.foo.tld/one/two?a=b&c=d#qwe, becomes
-      // https://www.foo.tld/?/one/two&a=b~and~c=d#qwe
-      // Note: this 404.html file must be at least 512 bytes for it to work
-      // with Internet Explorer (it is currently > 512 bytes)
+<html lang="pt-BR" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raidens | Portfólio | Página não encontrada</title>
+<meta name="description" content="Página não encontrada.">
+<meta name="author" content="Equipe RAIDENS · SESI Alumínio 192">
+<meta property="og:title" content="Raidens | Portfólio | Página não encontrada">
+<meta property="og:description" content="Página não encontrada.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://sesiraidens.github.io/portifolio/assets/logo_color.png">
+<meta name="theme-color" content="#FAF8F7">
+<!-- Logo oficial OBRIGATÓRIO — https://sesiraidens.github.io/portifolio/assets/logo_color-aNRVU26Y.png -->
+<link rel="icon" type="image/png" href="/portifolio/assets/logo_color.png">
+<link rel="apple-touch-icon" href="/portifolio/assets/logo_color.png">
+<script>(function(){var t=null;try{t=localStorage.getItem('theme');}catch(e){}document.documentElement.setAttribute('data-theme',t||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/portifolio/assets/raidens.css">
+</head>
+<body>
+<div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
 
-      // If you're creating a Project Pages site and NOT using a custom domain,
-      // then set pathSegmentsToKeep to 1 (enterprise users may need to set it to > 1).
-      // This way the code will only replace the route part and not the real directory.
-      // For example: https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
-      // https://username.github.io/repo-name/?/one/two&a=b~and~c=d#qwe
-      // Otherwise, leave pathSegmentsToKeep as 0.
-      var pathSegmentsToKeep = 1;
+<header class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="/portifolio/">
+      <img class="brand-logo" src="/portifolio/assets/logo_color.png" alt="Raidens" width="34" height="34">
+      <div class="brand-text">
+        <span class="brand-name">RAIDENS</span>
+        <span class="brand-sub">Portfólio · SESI Alumínio</span>
+      </div>
+    </a>
+    <nav class="nav" aria-label="Navegação principal"><a href="/portifolio/">Início</a><a href="/portifolio/download/">Downloads</a><a href="/portifolio/sobre/">Sobre</a></nav>
+    <div class="topbar-right">
+      <img class="partner-logo" src="/portifolio/assets/mnr_logo--ywFz8QQ.png" alt="MNR">
+      <button class="theme-btn" id="themeBtn" aria-label="Alternar tema"></button>
+    </div>
+  </div>
+</header>
 
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/portifolio/src/main.tsx"></script>
-  </body>
+<section class="hero" style="min-height:60vh">
+  <div>
+    <h1>
+      <span class="line"><span>Essa página</span></span>
+      <span class="line"><span>saiu da <span class="accent-word">linha</span>.</span></span>
+      <span class="line"><span>Erro 404.</span></span>
+    </h1>
+    <p class="lede reveal delay-1">O endereço que você abriu não existe ou mudou de lugar. Volte ao início e siga a pista certa.</p>
+    <div class="hero-cta reveal delay-2">
+      <a class="btn-primary" href="/portifolio/">Voltar ao início <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn-ghost" href="/portifolio/download/">Ver downloads</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-logos">
+    <img src="/portifolio/assets/logo_color.png" alt="Raidens">
+    <img class="partner" src="/portifolio/assets/mnr_logo--ywFz8QQ.png" alt="MNR">
+  </div>
+  <p>Desenvolvido pela equipe <a href="https://www.instagram.com/sesiraidens/" target="_blank" rel="noopener"><strong>Raidens</strong></a> — 2026</p>
+  <p class="small">Equipe de robótica do SESI Alumínio 192 · <a href="mailto:sesiraidens@gmail.com">sesiraidens@gmail.com</a></p>
+</footer>
+
+<script src="/portifolio/assets/raidens.js"></script>
+</body>
 </html>
